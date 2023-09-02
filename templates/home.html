@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="container-fluid justify-content-center w-50 text-center h-100 mt-5">
+        <div class="col flex container-fluid justify-content-center w-100 h-100 align-items-center">
+            <div class="col h-75 d-inline-block border border-light-subtle rounded my-4 align-items-center" style="background-color: rgba(0,0,255,.1)">
+                <div>
+                    <img src="{{url_for('static', filename='images/img_pedro1.jpeg')}}" class="img-fluid w-50 border border-light rounded-circle my-3" alt="Pedro">
+                </div>
+            </div>
+            <div class="col h-75 d-inline-block border border-light rounded my-2">
+                <div>
+                    <div>
+                        <h2 class="md:text-5xl text-4xl font-semibold mb-4">Pedro Cruzeiro Carpes</h2>
+                        <hr>
+                    </div>
+                    <div class="text-start text-wrap">
+                        <h6 class="md:text-5xl text-4xl font-semibold mb-4 text-center">Python Full Stack Developer with an MBA in Project Management. Salesforce - Beginner Administrator Trail. Lawyer transitioning into the Information Technology field.</h6>
+                    </div>
+                    <div class="row conteiner align-items-center bg-light border border-light-subtle rounded border-start-0">
+                        <div class="col mt-2">
+                            <h5><a class="nav-link" aria-current="page" href="https://github.com/pcarpes"><i class="bi bi-github"></i></a></h5>
+                        </div>
+                        <div class="col mt-2">
+                            <h5><a class="nav-link" href="https://www.linkedin.com/in/pedro-carpes-33175040/"><i class="bi bi-linkedin"></i></a></h5>
+                        </div>
+                        <div class="col mt-2">
+                            <h5><a class="nav-link" href="https://www.instagram.com/pedraocarpes/"><i class="bi bi-instagram"></i></a></h5>
+                        </div>
+                        <div class="col mt-2">
+                            <h5><a class="nav-link" href="https://www.facebook.com/pedro.carpes/"><i class="bi bi-facebook"></i></a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

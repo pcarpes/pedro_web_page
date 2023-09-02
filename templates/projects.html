@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container-fluid justify-content-center w-75 h-100 mt-5">
+  <div class="text-center" id="resume">
+    <h2>Main Projects</h2>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col col-sm-1">
+      <img src="{{url_for('static', filename='icons/python_icon.jpg')}}" class="img-fluid w-50" alt="Python">
+    </div>
+    <div class="col-md-auto ">
+      <h4>Automation of Systems and Processes</h4>
+    </div>
+    <div class="m-1">
+      <p>Every day, the company's system updates the previous day's sales. Your daily work, as an analyst, is to send an e-mail to the board, as soon as you start working, with the billing and the quantity of products sold the previous day.</p>
+      <p>Automation created using Pyautogui.</p>
+    </div>
+    <div class="col nav justify-content-start mt-3"></div>
+    <div class="col nav justify-content-center mt-3">
+        <a class="btn btn-primary"href="https://github.com/pcarpes/intensivao_python_automacao_sistemas">GitHub Repository</a>
+    </div>
+    <div class="col nav justify-content-end mt-3"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col col-sm-1">
+      <img src="{{url_for('static', filename='icons/python_icon.jpg')}}" class="img-fluid w-50" alt="Python">
+    </div>
+    <div class="col-md-auto ">
+      <h4>Web Automation</h4>
+    </div>
+    <div class="m-1">
+      <p>We work in an importer and the price of our products is linked to the quotation of: Dollar, Euro Gold.</p>
+      <p>We need to automatically get the quote for these 3 items from the internet and know how much we should charge for our products, considering a contribution margin that we have in our database.</p>
+      <p>Automation created using Selenium and Pandas</p>
+    </div>
+    <div class="col nav justify-content-start mt-3"></div>
+    <div class="col nav justify-content-center mt-3">
+        <a class="btn btn-primary"href="https://github.com/pcarpes/intensivao_python_automacao_web/tree/main">GitHub Repository</a>
+    </div>
+    <div class="col nav justify-content-end mt-3">
+        <a href="/resume">back to top</a>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col col-sm-1">
+      <img src="{{url_for('static', filename='icons/python_icon.jpg')}}" class="img-fluid w-50" alt="Python">
+    </div>
+    <div class="col-md-auto ">
+      <h4>Data Science Project - Artificial Inteligence - Sales Forecast</h4>
+    </div>
+    <div class="m-1">
+      <p>Our challenge is to be able to predict the sales we are going to have in a given period based on spending on ads in the 3 major networks that the company Hashtag invests in: TV, Newspaper and Radio TV, Newspaper and Radio are in thousands of reais Sales are in millions</p>
+      <p>Data Analysis with Pandas, Sklearn, Matplotlib and Seaborn</p>
+    </div>
+    <div class="col nav justify-content-start mt-3"></div>
+    <div class="col nav justify-content-center mt-3">
+        <a class="btn btn-primary"href="https://github.com/pcarpes/intensivao_python_projeto_ciencias_dados">GitHub Repository</a>
+    </div>
+    <div class="col nav justify-content-end mt-3">
+        <a href="/resume">back to top</a>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col col-sm-1">
+      <img src="{{url_for('static', filename='icons/python_icon.jpg')}}" class="img-fluid w-50" alt="Python">
+    </div>
+    <div class="col-md-auto ">
+      <h4>Data Analysis</h4>
+    </div>
+    <div class="m-1">
+      <p>You work in a telecom company and have customers for several different services, among the main ones: internet and telephone.</p>
+      <p>The problem is that, analyzing the history of customers in recent years, you noticed that the company has Churn of more than 26% of customers.
+        This represents a loss of millions for the company.
+        What does the company need to do to resolve this?</p>
+      <p>Data Analysis with Pandas and Plotly</p>
+    </div>
+    <div class="col nav justify-content-start mt-3"></div>
+    <div class="col nav justify-content-center mt-3">
+        <a class="btn btn-primary"href="https://github.com/pcarpes/intensivao_python_analise_dados">GitHub Repository</a>
+    </div>
+    <div class="col nav justify-content-end mt-3">
+        <a href="/resume">back to top</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
